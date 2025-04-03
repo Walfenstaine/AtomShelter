@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
+    public Dweller assignedDweller;
     public Vector2 workPosition; // Позиция, где будет стоять житель
 
     // Возвращает позицию для работы

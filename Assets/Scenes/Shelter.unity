@@ -121,7 +121,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: a06771145e2f21944b7f1650dea23adc, type: 2}
 --- !u!1 &478940829
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +678,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8861994938382034734, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -734,6 +738,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b61f6be688fb1884bb3e3c8e892edcf1, type: 2}
+    - target: {fileID: -7078762010637887615, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -6797558711753713087, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -6383530978582492640, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -746,13 +758,41 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a99e9653980c52340b064267473188bb, type: 2}
+    - target: {fileID: -3694130577221859962, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -659926597914800698, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5830e5fc663d9494b84a1ca62eded3ef, type: 2}
+    - target: {fileID: -440384461822624932, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
       propertyPath: m_Name
       value: Shelter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889570721370170352, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932843279799724669, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2460952348127757077, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2954102749533430069, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3242680617086380718, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5657755594988801313, guid: e73b0de71dffb964285826eb2f3c5880, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -885,6 +925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Generator
       objectReference: {fileID: 0}
+    - target: {fileID: 6937548152316011777, guid: 705070db841a8f346a1da1d1815821c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7713768845110345659, guid: 705070db841a8f346a1da1d1815821c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -309.1
@@ -950,6 +994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8950c24d9b73be943b255272a626c64a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dwellerPrefab: {fileID: 0}
+  rooms: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
